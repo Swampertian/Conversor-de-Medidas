@@ -148,3 +148,23 @@ img {
     font-weight: bold;
   }
 
+
+
+  .tipo_medida {
+    color: #363838;
+    position: relative;
+  }
+
+  
+  select {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+option {
+    padding: 5px;
+}
+
+
+
