@@ -13,7 +13,7 @@
 <body>
 <div class="container">
 <?php
-    function converterUnidades($valor, $unidadeOrigem, $unidadeDestino) {
+    function converterUnidades($valor, $tipo_medida,$unidadeOrigem, $unidadeDestino) { //adicionei o tipomedida como parametro
         // Matriz de fatores de conversão
         $fatoresConversao = [
             'Comprimento' => [
@@ -109,12 +109,12 @@
 
     $resultado = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $valor = $_POST['valor'] ?? 1;
+    $valor = isset($_POST['valor']) && is_numeric($_POST['valor']) ? (float) $_POST['valor'] : 1; //tava dando pau aqui, as vezes o valor vinha como string
     $tipoMedida = $_POST['tipo_medida'] ?? 'Comprimento';
     $unidadeOrigem = $_POST['unidade_origem'] ?? 'Metro';
     $unidadeDestino = $_POST['unidade_destino'] ?? 'Centímetro';
     
-    $resultado = converterUnidades($valor, $unidadeOrigem, $unidadeDestino);
+    $resultado = converterUnidades($valor, $tipoMedida,$unidadeOrigem, $unidadeDestino);
 }
 
 ?>
