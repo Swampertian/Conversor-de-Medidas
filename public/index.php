@@ -1,3 +1,34 @@
-<?php
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-echo 'Its not Working';
+    <div class="container">
+        <!-- Cabeçalho -->
+        <h1>MetricWizard</h1>
+        <p>Escolha uma das funcionalidades abaixo para começar:</p>
+
+        <!-- Botões de Navegação -->
+        <div class="logo-container">
+        </div>
+        <div class="buttons-container">
+            <a href="conversao.php" class="btn">Conversão</a>
+            <a href="calcular_area.php" class="btn">Calcular área</a>
+            <a href="log.php" class="btn">Log</a>
+            <a href="historico.php" class= "btn">Histórico</a>
+            <a href="tabela.php" class = "btn">Tabela</a>
+        </div>
+    </div>
+
+
+</body>
+</html>
