@@ -22,7 +22,7 @@
         </div>
         <div class="buttons-container">
             <a href="conversao.php" class="btn">Conversão</a>
-            <a href="calcular_area.php" class="btn">Calcular área</a>
+            <a href="calculadoraApp.php" class="btn">Calcular área</a>
             <a href="CalculadoraNum.php" class="btn">Calculadora</a>
             <a href="historicoApp.php" class= "btn">Histórico</a>
             <a href="tabela.php" class = "btn">Tabela</a>
