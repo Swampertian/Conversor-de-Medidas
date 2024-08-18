@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -90,10 +91,12 @@
         // Verifica se a conversão é possível
         foreach ($fatoresConversao as $tipo => $unidades) {
             if (isset($unidades[$unidadeOrigem][$unidadeDestino])) {
+                if ($valor !== ''){
                 return $valor * $unidades[$unidadeOrigem][$unidadeDestino];
+                }
             }
         }
-        return "Conversão não disponível.";
+        return '';
     }
 
     $unidades = [
@@ -109,7 +112,7 @@
 
     $resultado = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $valor = isset($_POST['valor']) && is_numeric($_POST['valor']) ? (float) $_POST['valor'] : 1; //tava dando pau aqui, as vezes o valor vinha como string
+    $valor = $_POST['valor'] ?? 1; //tava dando pau aqui, as vezes o valor vinha como string
     $tipoMedida = $_POST['tipo_medida'] ?? 'Comprimento';
     $unidadeOrigem = $_POST['unidade_origem'] ?? 'Metro';
     $unidadeDestino = $_POST['unidade_destino'] ?? 'Centímetro';
@@ -120,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
     <form method="POST">
         <!-- Tipo de Medida -->
-        <div class="tipo_medida">
+        <div>
             <label for="tipo_medida">Escolha o tipo de medida:</label>
             <select name="tipo_medida" id="tipo_medida" onchange="this.form.submit()">
                 <?php foreach ($unidades as $tipo => $lista_unidades): ?>
@@ -130,12 +133,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     
     <label for="valor">Digite um valor:</label>
-    <input type="number" name="valor" id="valor" placeholder="Digite um valor!" required>
+    <input type="number" name="valor"  placeholder="Digite um valor!" required>
 
     <!-- Painel de Unidades -->
-    <div class="painel_unidades-container">
+    <div>
             <!-- Unidade de Origem -->
-            <div class="painel_unidade">
+            <div>
                 <label for="unidade_origem">Escolha a unidade de origem:</label>
                 <select name="unidade_origem" id="unidade_origem">
                     <?php foreach ($unidades_origem as $unidade): ?>
@@ -145,7 +148,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
 
             <!-- Unidade de Destino -->
-            <div class="painel_unidade">
+            <div>
                 <label for="unidade_destino">Escolha a unidade de destino:</label>
                 <select name="unidade_destino" id="unidade_destino">
                     <?php foreach ($unidades_destino as $unidade): ?>
@@ -167,3 +170,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 </body>
 </html>
+=======
+>>>>>>> develop
