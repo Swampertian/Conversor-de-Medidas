@@ -13,4 +13,4 @@ Na tela de Calculadora, podemos escolher entre algumas operaçoes basicas e defi
 ![Tela de Calculadora](Captura de tela 2024-08-19 191059.png)
 
 Já na tela de histórico, temos um registro das operações feitas na tela de Conversão, sendo possível excluir caso queira os elementos do histórico.
-![Tela de historico](caminho/para/imagem.png)
+![Tela de historico](Captura de tela 2024-08-19 191113.png)
