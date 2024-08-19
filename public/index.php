@@ -21,7 +21,7 @@
         <div class="logo-container">
         </div>
         <div class="buttons-container">
-            <a href="conversao.php" class="btn">Conversão</a>
+            <a href="conversor.php" class="btn">Conversão</a>
             <a href="calcular_area.php" class="btn">Calcular área</a>
             <a href="CalculadoraNum.php" class="btn">Calculadora</a>
             <a href="historicoApp.php" class= "btn">Histórico</a>
