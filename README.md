@@ -10,7 +10,7 @@ Na tela de Calculadora de Area, podemos escolher a figura geométrica e dar a me
 ![Tela de Calculadora area](Captura de tela 2024-08-19 191044.png)
 
 Na tela de Calculadora, podemos escolher entre algumas operaçoes basicas e definir os numeros da operação a ser executada.
-![Tela de Calculadora](caminho/para/imagem.png)
+![Tela de Calculadora](Captura de tela 2024-08-19 191059.png)
 
 Já na tela de histórico, temos um registro das operações feitas na tela de Conversão, sendo possível excluir caso queira os elementos do histórico.
 ![Tela de historico](caminho/para/imagem.png)
