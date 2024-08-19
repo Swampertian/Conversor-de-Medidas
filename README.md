@@ -7,7 +7,7 @@ Na tela de Conversão, podemos escolher qual tipo de medida(comprimento, massa, 
 ![Tela de Conversão](Captura de tela 2024-08-19 191019.png)
 
 Na tela de Calculadora de Area, podemos escolher a figura geométrica e dar a medidas dos lados/raio para que a área seja calculada.
-![Tela de Calculadora area](caminho/para/imagem.png)
+![Tela de Calculadora area](Captura de tela 2024-08-19 191044.png)
 
 Na tela de Calculadora, podemos escolher entre algumas operaçoes basicas e definir os numeros da operação a ser executada.
 ![Tela de Calculadora](caminho/para/imagem.png)
