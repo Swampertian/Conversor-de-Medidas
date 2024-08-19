@@ -4,7 +4,7 @@ Na página inicial, vemos uma tela de menu onde é possível escolher qual funci
 ![Tela inicial](Captura de tela 2024-08-19 190959.png)
 
 Na tela de Conversão, podemos escolher qual tipo de medida(comprimento, massa, volume) queremos usar, e a partir disso inserir um número para converter entre 2 unidades de medida.
-![Tela de Conversão](caminho/para/imagem.png)
+![Tela de Conversão](Captura de tela 2024-08-19 191019.png)
 
 Na tela de Calculadora de Area, podemos escolher a figura geométrica e dar a medidas dos lados/raio para que a área seja calculada.
 ![Tela de Calculadora area](caminho/para/imagem.png)
