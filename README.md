@@ -1,3 +1,33 @@
+# Engenharia de Software - 2024.2 | Universidade Federal do Tocantins - Palmas
+
+Curso: Bacharelado em Ciência da Computação
+
+Professor: Edeilson Milhomem da Silva
+
+Time: Mayconn Cardoso Soares, Pedro Lucas Moreira Pinto, João Vitor Reis Días e Victhor Cabral Magalhães
+
+Link do vídeo de apresentação:
+
+## Instruções para configuração e execução:
+
+Instalar o php:
+
+```bash
+https://windows.php.net/download#php-8.2
+```
+
+Abra o Prompt de Comando ou Terminal Execute o seguinte comando: 
+```bash
+git clone https://github.com/Swampertian/Conversor-de-Medidas.git
+```
+
+Navegue até o diretório do projeto clonado e inicie o servidor PHP com o seguinte comando:
+```bash
+php -S localhost:8000 -t public
+```
+
+## Sobre o Projeto:
+
 No Projeto, fizemos uma aplicação com 4 features que podem ser utilizadas: Conversão de unidades de medida, Calculadora de Área, Calculadora de operações Aritméticas básicas e o Histórico de Conversões.
 
 Na página inicial, vemos uma tela de menu onde é possível escolher qual funcionalidade usar. ![Tela inicial](Captura%20de%20tela%202024-08-19%20190959.png)
